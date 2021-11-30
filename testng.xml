@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Planit Test Suite">
+<listeners>
+
+<listener
+ class-name="utilities.ExtentReportManager"/>
+</listeners>
+<test name="Chrome Tests">
+<groups>
+         <run>
+            <include name = "sanity" />
+         </run>
+      </groups>
+	<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="testCases.Test_1"/>
+		</classes>
+	
+	</test>
+</suite>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-29T21:44:49 AEDT" name="Planit Test Suite" finished-at="2021-11-29T21:45:28 AEDT" duration-ms="39230">
+    <groups>
+      <group name="sanity">
+        <method signature="Test_1.testcase_1()[pri:0, instance:testCases.Test_1@3f6b0be5]" name="testcase_1" class="testCases.Test_1"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2021-11-29T21:44:49 AEDT" name="Chrome Tests" finished-at="2021-11-29T21:45:28 AEDT" duration-ms="39230">
+      <class name="testCases.Test_1">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Test_1@3f6b0be5]" started-at="2021-11-29T21:44:49 AEDT" name="setup" finished-at="2021-11-29T21:44:53 AEDT" duration-ms="3400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testcase_1()[pri:0, instance:testCases.Test_1@3f6b0be5]" started-at="2021-11-29T21:44:53 AEDT" name="testcase_1" finished-at="2021-11-29T21:45:28 AEDT" duration-ms="35563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_1 -->
+      </class> <!-- testCases.Test_1 -->
+    </test> <!-- Chrome Tests -->
+  </suite> <!-- Planit Test Suite -->
+</testng-results>
